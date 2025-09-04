@@ -14,7 +14,8 @@ RAGEnhancedChatBot is a web-based application that allows users to collect, proc
 The project is at a functional prototype stage, with core ingestion/query flows working reliably for small-to-medium datasets. It's served as a great learning tool for integrating LLMs with RAG, but it's not yet production-ready.
 
 **What I'd Do Differently for Scalability or Launching on AWS**
-If redesigning for scalability and AWS deployment, I'd prioritize cloud-native architecture to handle larger loads, better reliability, and easier maintenance. Here's how:
+
+If redesigning for scalability and AWS deployment, I'd prioritize cloud-native architecture to handle larger loads, better reliability, and easier maintenance.
 - Database and Vector Store Migration: Replace local SQLite with Amazon RDS (PostgreSQL) for structured data and Pinecone or Amazon OpenSearch for vector embeddings (instead of FAISS). This enables horizontal scaling and managed backups. For RAG, I'd use LangChain's AWS integrations to sync embeddings seamlessly.
 - Serverless Compute: Host the backend on AWS Lambda for event-driven processing (e.g., collection tasks triggered via API Gateway). The Gradio UI could run on EC2 or ECS, but for cost-efficiency, I'd containerize with Docker and deploy to Fargate. This reduces idle costs and auto-scales with traffic.
 - Storage and Caching: Use S3 for raw contents and consolidated files, with CloudFront CDN for fast access. Implement Redis (ElastiCache) for caching frequent queries, reducing LLM calls.
