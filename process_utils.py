@@ -11,10 +11,9 @@ import html
 import requests
 from bs4 import BeautifulSoup
 import re
-import spacy
 from augment_utils import augment_chunk  # Import for augmentation
 
-nlp = spacy.load("en_core_web_sm")
+# Removed spaCy import and usage to avoid any potential modification during extraction
 
 def clean_web_content(url, use_ollama=False):
     yield ("status", f"Debug: Fetching and cleaning URL: {url} with Ollama: {use_ollama}")
@@ -29,53 +28,53 @@ def clean_web_content(url, use_ollama=False):
         soup = BeautifulSoup(html, 'html.parser')
         for elem in soup.select('script, style, nav, header, footer, .ad, .advert, iframe, noscript'):
             elem.extract()
-        main_content = soup.find('main') or soup.find('article') or soup
-        text = main_content.get_text(separator='\n', strip=True)
-        text = re.sub(r'\s+', ' ', text)
-        text = re.sub(r'[\n\t\r]+', ' ', text)
-        text = re.sub(r'http\S+|www\S+|[\w\.-]+@[\w\.-]+', '', text)
-        # Removed the len >20 filter to keep short lines, e.g., for lyrics
-        lines = [line.strip() for line in text.split('.') if line.strip()]
-        cleaned_text = '. '.join(lines)
-        yield ("status", f"Debug: Step 2 completed: Cleaned text length: {len(cleaned_text)} characters.")
 
-        # Chunking (before augmentation)
+        # Special handling for lyrics sites to preserve full structure
+        if 'genius.com' in url:
+            yield ("status", "Debug: Detected Genius.com - extracting full lyrics with structure preserved.")
+            lyrics_divs = soup.find_all('div', class_=re.compile(r'Lyrics__Container'))
+            text = '\n'.join([div.get_text(separator='\n', strip=False) for div in lyrics_divs])
+        elif 'azlyrics.com' in url:
+            yield ("status", "Debug: Detected AZLyrics.com - extracting full lyrics with structure preserved.")
+            lyrics_div = soup.find('div', class_='ringtone').find_next_sibling('div') if soup.find('div', class_='ringtone') else soup.find('div', id='lyrics-body-text')
+            text = lyrics_div.get_text(separator='\n', strip=False) if lyrics_div else ''
+        else:
+            yield ("status", "Debug: General content - extracting full text with structure preserved.")
+            main_content = soup.find('main') or soup.find('article') or soup
+            text = main_content.get_text(separator='\n', strip=False)
+
+        # Extremely minimal cleanup: remove URLs/emails only, preserve all whitespace and structure
+        cleaned_text = re.sub(r'http\S+|www\S+|[\w\.-]+@[\w\.-]+', '', text)  # Remove URLs/emails
+        cleaned_text = cleaned_text.strip()  # Trim leading/trailing whitespace only
+        yield ("status", f"Debug: Step 2 completed: Cleaned text length: {len(cleaned_text)} characters. Preview: {cleaned_text[:200]}...")
+
+        # Chunking (before augmentation) - use character-based splitter to preserve structure
         yield ("status", "Debug: Step 3: Chunking content...")
-        doc = nlp(cleaned_text)  # Use NLP for sentence splitting
-        sentences = [sent.text.strip() for sent in doc.sents if sent.text.strip()]
-        chunk_size = 200  # Words per chunk
-        chunks = []
-        current_chunk = []
-        current_word_count = 0
-        for sent in sentences:
-            word_count = len(sent.split())
-            if current_word_count + word_count > chunk_size:
-                chunks.append(' '.join(current_chunk))
-                current_chunk = [sent]
-                current_word_count = word_count
-            else:
-                current_chunk.append(sent)
-                current_word_count += word_count
-        if current_chunk:
-            chunks.append(' '.join(current_chunk))
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=500,
+            chunk_overlap=100,
+            separators=["\n\n", "\n", " ", ""],  # Prioritize newlines for structure
+            keep_separator=True
+        )
+        chunks = text_splitter.split_text(cleaned_text)
         if len(chunks) == 0:
             yield ("status", "Debug: Warning: No chunks created from cleaned text.")
-        yield ("status", f"Debug: Step 3 completed: Created {len(chunks)} chunks.")
+        yield ("status", f"Debug: Step 3 completed: Created {len(chunks)} chunks. First chunk preview: {chunks[0][:100]}..." if chunks else "No chunks.")
 
         # Augment chunks if use_ollama is True
         if use_ollama:
-            yield ("status", "Debug: Step 4: Augmenting chunks with NLP and Ollama...")
+            yield ("status", "Debug: Step 4: Augmenting chunks with Ollama correction...")
             augmented_chunks = []
             for i, chunk in enumerate(chunks):
                 yield ("status", f"Debug: Augmenting chunk {i+1}/{len(chunks)}...")
                 augmented_text = augment_chunk(chunk)
                 augmented_chunks.append(augmented_text)
             processed_text = '\n\n'.join(augmented_chunks)
-            yield ("status", "Debug: Step 4 completed: Augmentation done. Processed text length: {len(processed_text)}")
+            yield ("status", f"Debug: Step 4 completed: Augmentation done. Processed text length: {len(processed_text)}. Preview: {processed_text[:200]}...")
         else:
-            # If no augmentation, just join chunks
+            # If no augmentation, just join chunks with newlines to preserve structure
             processed_text = '\n\n'.join(chunks)
-            yield ("status", "Debug: Step 4 skipped: No augmentation requested. Processed text length: {len(processed_text)}")
+            yield ("status", f"Debug: Step 4 skipped: No augmentation requested. Processed text length: {len(processed_text)}. Preview: {processed_text[:200]}...")
 
         yield ("content", processed_text)
     except Exception as e:
