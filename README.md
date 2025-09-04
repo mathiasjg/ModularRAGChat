@@ -1,4 +1,5 @@
 ModularRAGChat is a web-based application that allows users to collect, process, and query data from various sources using a local LLM (Qwen2.5:7B via Ollama) enhanced with RAG. It supports ingestion from web searches (via DuckDuckGo), Reddit/Subreddit threads, YouTube transcripts, and files (TXT/PDF). Once data is collected into "collections," users can chat with the bot to retrieve and summarize information, with optional Ollama augmentation for content refinement.
+
 **Pros:**
 - Modular Design: The codebase is structured with separate utilities (e.g., web_utils.py, youtube_utils.py) for each data source, making it easy to extend or maintain. This aligns with LangChain's chain-based approach for retrieval and generation.
 - Efficient Ingestion and Retrieval: Uses FAISS for vector storage, spaCy for NLP (e.g., entity extraction, chunking), and ensemble retrieval (dense + BM25) for accurate results. Supports domain-specific handling, like lyrics extraction.
