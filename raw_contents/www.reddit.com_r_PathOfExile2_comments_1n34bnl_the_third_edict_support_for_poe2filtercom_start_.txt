@@ -1,0 +1,51 @@
+**The Third Edict** 0.3.0 support for [poe2filter.com](http://poe2filter.com) is now live! With 75 new types of Currency, 50 new and removed Gear Base Types, new concepts like Exceptional Items and Lineage Support Gems, it's sure been quite a ride the past few days!
+
+Your existing filters will update automatically upon loading them in the tool. Note that once updated, they won't work anymore with **0.2.1**. If you still need a filter to practice your league start, you can use [legacy.poe2filter.com](http://legacy.poe2filter.com) and import/download your .filter files there.
+
+If you hadn't checked back for a while, you'll notice that aside from The Third Edict support, I've also ported over a couple of large features from sister site [poe1filter.com](http://poe1filter.com) \-- most notably the Presets tab and Identified Items.
+
+One request I often received was that the Quick Filters tab was getting a bit daunting, and not everyone found their way to the Presets dialog. Some users just want to select a Progress &amp; Class preset, choose some League Start or Endgame options, and go. That's exactly what the new **Presets tab** is for. New users will be taken there on their initial visit. On subsequent visits, you'll still be taken to the Quick Filters tab, which has gotten a bit cleaner: sections you're not using can now be 'collapsed', and presets will do so for you.
+
+The other large feature I ported over was support for **Identified items**, which in PoE2 can drop from Strongboxes. You no longer need to hover over each identified item. Bad ones will be hidden, Good and Excellent ones will get highlighted. You can extensively tweak which sets of mods on which categories of items you consider good, or create your own categories with mods you're specifically looking for!
+
+It'd take me too far to go over the other dozens of new features and tweaks, but as always, you can read about them on the [Changelog](https://poe2filter.com/updates) page.
+
+On any tab, right underneath the tool itself, you can find the latest status of The Third Edict support. Important messages will be displayed in the top white banner.
+
+I do advise you to update once more just before league launch, in case I made any last-minute changes. I'll also re-enable validation again, against 0.3.0. Check back and update every few hours and days after the launch, to get the **latest economy data**.
+
+With this many changes and no way to test anything beforehand, unfortunately it's possible that your **filter fails to load**. In that case, check back once in a while -- I'll release hotfixes as soon as possible, and your filters will again get migrated automatically. Of course, it would be super appreciated if you could contact me with the error message you're getting, and your .filter file, if nobody else has reported the error yet. You can reach out to me on [Discord](https://discord.gg/JbaMnwngvq), in the comments here, or on the [Official forum thread](https://www.pathofexile.com/forum/view-thread/3630063/page/39).
+
+Godspeed on your journey to Ngamakanui, exiles!may i ask what the difference is between this and filterblade.xyz? always been using that, was not aware of this one, so any differences would be great to know! Appreciate your work! 0.3 HYPE! Your website is so simple. i'm so dumb when it comes to setting up filters and just let the screen explode with items. thanks for your work You have become my favorite filter provider since two leagues ago
+
+I like how easy it is to customize and streamline your filter as I go from lvl 1 to 90 on 3 chars Does this work for consoles? I appreciate thank you. Great job on the update!
+
+I really like all the improvements you've done since the PoE1 release and I'm glad it's not just a pretty husk, but becoming an absolutely awesome tool.
+
+Absolutely love your use of the "Expert/Advanced" etc bases as a variable (may adapt is as basetype variables at some point for filterblade).
+
+Also your ID-mod parsing work is masterful!
+
+Huge recommendations for anyone who wants a great vanilla-looking filter with good customization options Loved using your filter during the previous patch (: Love this filter creator! Thanks for the great updates. I was so happy when I saw the sister site go up too. Now to actually prepare for leaguestart! Thank you! Really really appreciate all your work, thank you 🙏🫶 Nice, I didn't realize there was an alternative to filterblade. Gunna check this out. lovely, thanks &lt;3 Ty, will try Thank you king, love your site If you want to lean into poe2 aspects, consider supporting couch co-op by allowing selection of two character classes at a time Looks very user friendly. I highly recommend trying it if you ever wanted to get into customizing a bit more than just filter cosmetics. While I have nothing but praise for filterblade, I always found it a bit overwhelming, whereas poe2filter just instantly clicked for me. 
+
+Thank you /u/BlackDeathBE! im ready for round 3 with your filter Normally I use the other usual filter, but I fell in love with your website so I will use yours this time! This is my filter of choice, thanks! Thanks for the update.
+Love your filters. Very easy to use right away and easy to adjust, if there is anything you want to change. I went to go check this site.  Apparently its what I was already using. So streamer I was watching,  Goratha has at least been promoting it to his 5k player stream But can i make Maven moan everytime currency drops with this Filter I have been using your filter website since 0.1 launch so thank you very much. Will you add a way to customize individual items? Love this filter. Not bloated, does what you need it to and nothing more. I will give it a shot over filterblade, atleast for leveling ... lets check out how good the work is :) I only get failed to load item filter reason: line 127 unable to parse something about "Runed Focus" etc is it something about focus offhands?? I havent played for a long time, have they changed something with them? I just tried to download a witch leveling filter and I got this error im pretty sure its in meny more lines repeating also.... ANY HELP? I like the website, ill try it out. One question, how do you trigger filter updates? I hardly understand anything about filters, but I noticed tha my Filterblade semi-strict starts automatically hiding items as I progress through campaign or go higher tier maps. 
+
+But on your website I see that there are 3 different options just for campaign.  Does that mean that I will need to change filters frequently manually?
+
+Also, scoping to defense type and weapon types sounds interesting, but I wouldn't want to skip good leveling gear (i.e. MS boots, +skills on weapons and such) for future characters. Was there a post somewhere on the new filter details for 0.3? I've been looking around but not found one?
+
+Don't want offend to anyone but I hate all publicly created filters because I think they look like circus clown fiestas with all the colors and beams and shit, I just want to update my own filter but can't seem to find what I need for 0.3.
+
+  
+Edit: Never mind, I'm just bad. Found it now So will we be able to upgrade our tabs on PlayStation to merchant tabs I honestly can’t wait for this to be fair Just so I understand this correctly (and that I'm doing it right) - All the tabs on the website work together before hitting the "Sync" button, right? So if I go for Preset: Early Campaign - Witch hit Sync, then go to Currency - Early game and hit Sync again it doesn't erase my Witch selection, right?
+
+So, theoretically, I could just visit each tab left to right, modify what I want and hit Sync at the end, right? I’m going mostly filter free until I know what I’m really going to focus on, build wise. There’s good loot that can drop for every class so having the possibility of missing it because of a filter might make leveling an alternate class a little rougher than it should be. https://preview.redd.it/ypt6urpzpzlf1.png?width=935&amp;format=png&amp;auto=webp&amp;s=888ca1948254815b1f90b97e91c9eb51f5c4096c
+
+Oh no, something seems to be off. Or should I wait for league start? Neversinks filter is the best. It's a cool project but not necessary for the poe community Love this filter! I feel like im in much more control when using it compared to filterblade &amp; I learn what is valuable myself to a larger degree. Im kinda annoyed at GGG because its such a headace to figure out what uniques are good and their different hidden caregories. And that there are still item bases with the same sprite but different names &gt;.&lt;
+
+Also I much prefer the default visuals of this filter.  
+Will clicking the presets automatically override the filter settings? Maybe add a "apply preset" button and a warning if it will override custom filter settings? During the campaign, the filter seems to hide Uncut Skill gem level 3.
+I'm level 8. Selected early campaign and monk. :O Thanks for your straight-forward to use loot filter. The other ones show so much shit even when I have it set to strict. Is there a way to customize the name of the filter before syncing? awesome, i update my 2 starter filters directly. Thank you for your great work! Thanks, buddy! Such a good filter thanks You're doing the Lords work here! Hi , great work! Is there a way to make the drag and drop in the Tier customisation work on mobile ? sorry i'm a complete noob at this game, what is this  poe2filter.com for? will give it a shot. thx Yo this looks pretty damn cool. I'm for sure gonna give it a shot instead of manually fixing my own. o7
+
+And i frikin love the SSF option! hell yeah I am glad i found something like this i am gonna use it for sure Looks worth a shot

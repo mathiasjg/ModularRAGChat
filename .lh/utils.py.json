@@ -1,0 +1,18 @@
+{
+    "sourceFile": "utils.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1756856962220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1756856962220,
+            "name": "Commit-0",
+            "content": "import threading\r\n\r\nlock = threading.Lock()"
+        }
+    ]
+}

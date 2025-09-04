@@ -1,0 +1,30 @@
+{
+    "sourceFile": "vectorstore_manager.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1756941912951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756944088451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-# vectorstore_utils.py\r\n+# vectorstore_manager.py\r\n import os\r\n from config import FAISS_PATH\r\n from langchain_ollama import OllamaEmbeddings\r\n from langchain_community.vectorstores import FAISS\r\n@@ -7,20 +7,19 @@\n \r\n embeddings = OllamaEmbeddings(model=MODEL_NAME)\r\n \r\n def get_vectorstore(tag=None):\r\n-    if tag:\r\n-        path = os.path.join(FAISS_PATH, tag)\r\n-    else:\r\n-        path = FAISS_PATH\r\n+    if tag is None:\r\n+        # Return an empty vectorstore if no tag\r\n+        vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy\r\n+        vs.delete([vs.index_to_docstore_id[0]])  # Remove dummy\r\n+        return vs\r\n+    path = os.path.join(FAISS_PATH, tag)\r\n     if not os.path.exists(path):\r\n         os.makedirs(path)\r\n     if os.path.exists(os.path.join(path, \"index.faiss\")):\r\n         return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)\r\n     else:\r\n-        vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy with non-empty text\r\n\\ No newline at end of file\n+        vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy\r\n         vs.delete([vs.index_to_docstore_id[0]])  # Remove dummy\r\n         vs.save_local(path)\r\n-        return vs\r\n-\r\n-# Global vectorstore (for backward compatibility if needed)\r\n-vectorstore = get_vectorstore()\n+        return vs\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756954204703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,11 @@\n     path = os.path.join(FAISS_PATH, tag)\r\n     if not os.path.exists(path):\r\n         os.makedirs(path)\r\n     if os.path.exists(os.path.join(path, \"index.faiss\")):\r\n-        return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)\r\n+        vs = FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)\r\n+        print(f\"Loaded vectorstore for tag {tag} with {vs.index.ntotal} documents.\")  # Debug\r\n+        return vs\r\n     else:\r\n         vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy\r\n         vs.delete([vs.index_to_docstore_id[0]])  # Remove dummy\r\n         vs.save_local(path)\r\n"
+                },
+                {
+                    "date": 1756959789735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,17 +11,21 @@\n     if tag is None:\r\n         # Return an empty vectorstore if no tag\r\n         vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy\r\n         vs.delete([vs.index_to_docstore_id[0]])  # Remove dummy\r\n+        print(f\"Debug: Created empty vectorstore (no tag provided). ntotal: {vs.index.ntotal}\")\r\n         return vs\r\n     path = os.path.join(FAISS_PATH, tag)\r\n     if not os.path.exists(path):\r\n         os.makedirs(path)\r\n-    if os.path.exists(os.path.join(path, \"index.faiss\")):\r\n+        print(f\"Debug: Created new directory for vectorstore tag '{tag}' at {path}.\")\r\n+    index_path = os.path.join(path, \"index.faiss\")\r\n+    if os.path.exists(index_path):\r\n         vs = FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)\r\n-        print(f\"Loaded vectorstore for tag {tag} with {vs.index.ntotal} documents.\")  # Debug\r\n+        print(f\"Debug: Loaded existing vectorstore for tag '{tag}' from {index_path}. ntotal: {vs.index.ntotal}\")\r\n         return vs\r\n     else:\r\n         vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy\r\n         vs.delete([vs.index_to_docstore_id[0]])  # Remove dummy\r\n         vs.save_local(path)\r\n+        print(f\"Debug: Created and saved new empty vectorstore for tag '{tag}' at {path}. ntotal: {vs.index.ntotal}\")\r\n         return vs\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1756941912951,
+            "name": "Commit-0",
+            "content": "# vectorstore_utils.py\r\nimport os\r\nfrom config import FAISS_PATH\r\nfrom langchain_ollama import OllamaEmbeddings\r\nfrom langchain_community.vectorstores import FAISS\r\nfrom config import MODEL_NAME\r\n\r\nembeddings = OllamaEmbeddings(model=MODEL_NAME)\r\n\r\ndef get_vectorstore(tag=None):\r\n    if tag:\r\n        path = os.path.join(FAISS_PATH, tag)\r\n    else:\r\n        path = FAISS_PATH\r\n    if not os.path.exists(path):\r\n        os.makedirs(path)\r\n    if os.path.exists(os.path.join(path, \"index.faiss\")):\r\n        return FAISS.load_local(path, embeddings, allow_dangerous_deserialization=True)\r\n    else:\r\n        vs = FAISS.from_texts([\"dummy\"], embeddings)  # Dummy with non-empty text\r\n        vs.delete([vs.index_to_docstore_id[0]])  # Remove dummy\r\n        vs.save_local(path)\r\n        return vs\r\n\r\n# Global vectorstore (for backward compatibility if needed)\r\nvectorstore = get_vectorstore()"
+        }
+    ]
+}

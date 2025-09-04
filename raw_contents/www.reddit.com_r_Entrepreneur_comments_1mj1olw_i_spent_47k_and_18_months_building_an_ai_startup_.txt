@@ -1,0 +1,323 @@
+**TL;DR:** Burned through $47k building an AI tool that 12 people use. Here's what the "AI gold rush" really looks like from the trenches, and why most AI startups are just expensive tech demos.
+
+# The Setup (AKA How I Got Caught Up in the Hype)
+
+18 months ago, I was a perfectly happy software consultant making decent money. Then ChatGPT happened, and suddenly everyone was an "AI entrepreneur." My LinkedIn feed was nothing but:
+
+* "I built an AI that does X in 10 minutes!"
+* "Our AI startup just raised $2M!"
+* "$10k MRR with AI tools!"
+
+I got FOMO and thought, "How hard can it be?"
+
+**Spoiler alert:** Very hard.
+
+# The Idea (That Seemed Brilliant at 2 AM)
+
+I decided to build an AI-powered content creation tool for small businesses. The pitch was simple: "Input your business details, get professional marketing copy in seconds."
+
+Why this seemed genius:
+
+* Small businesses suck at copywriting
+* They don't want to hire expensive agencies
+* AI can write decent copy
+* Subscription model = recurring revenue
+
+I spent weeks validating this idea by asking friends, "Would you pay for this?" Everyone said yes.
+
+**First mistake:** Asking people what they'd pay for instead of asking them to actually pay for it.
+
+# The Build (18 Months of "Almost Done")
+
+**Months 1-3: The MVP That Wasn't Minimum** I started building what I thought was an MVP. Ended up with:
+
+* Custom AI training pipeline
+* Beautiful UI with 47 different templates
+* User authentication system
+* Payment processing
+* Admin dashboard
+* Analytics suite
+
+Cost so far: $12k (mostly my own development time valued at $100/hour)
+
+**Months 4-8: Feature Creep Hell** Beta users started asking for features:
+
+* "Can it write in different tones?"
+* "What about social media posts?"
+* "Can it integrate with WordPress?"
+* "What about email templates?"
+
+I said yes to everything. Each feature took 2-3x longer than expected.
+
+Cost so far: $28k
+
+**Months 9-12: The Technical Debt Tsunami** Nothing worked together properly. The codebase was a nightmare. I spent 4 months just refactoring and fixing bugs.
+
+Cost so far: $39k
+
+**Months 13-18: Desperation Marketing** Launched on Product Hunt (ranked #47 for the day). Posted in Facebook groups. Cold emailed 500 small business owners. Tried Reddit ads, Google ads, LinkedIn outreach.
+
+Total additional marketing spend: $8k Total users acquired: 73 Paying customers: 12
+
+**Final tally: $47k spent, $340 revenue.**
+
+# What I Got Wrong (Pretty Much Everything)
+
+# 1. I Built a Solution Looking for a Problem
+
+Small businesses don't actually want AI copywriting tools. They want customers. Big difference.
+
+When I actually talked to my target market (should've done this first), here's what I learned:
+
+* They're too busy to learn new tools
+* They don't trust AI for their brand voice
+* They'd rather hire their neighbor's kid for $50
+
+# 2. I Competed with ChatGPT
+
+Why would someone pay me $29/month when ChatGPT Plus is $20/month and does way more?
+
+My value proposition was "it's easier than ChatGPT."
+
+Reality: It wasn't. And even if it was 10% easier, that's not worth paying 45% more.
+
+# 3. I Underestimated Sales &amp; Marketing
+
+I'm a developer. I thought "build it and they will come" was a real strategy.
+
+Breakdown of my 18 months:
+
+* Building: 14 months
+* Marketing/Sales: 4 months
+
+Should have been:
+
+* Building: 4 months
+* Marketing/Sales: 14 months
+
+# 4. I Ignored Unit Economics Until Too Late
+
+My customer acquisition cost: $650 per customer ($8k marketing spend ÷ 12 customers) My average revenue per customer: $28 (most churned after 1 month)
+
+Even a business school dropout could see this math doesn't work.
+
+# 5. I Built for Myself, Not Customers
+
+I made assumptions about what small businesses wanted based on what I thought they should want.
+
+Turns out, they just want more sales. They don't care how beautiful your UI is.
+
+# The Real AI Business Landscape (It's Not Pretty)
+
+After networking with other "AI entrepreneurs" for 18 months, here's what I've observed:
+
+# Tier 1: The Actually Successful Ones (5%)
+
+* Had domain expertise BEFORE AI
+* Solved real problems for specific industries
+* Focused on B2B with enterprise budgets
+* Examples: AI for radiology, legal document review, financial compliance
+
+# Tier 2: The Lifestyle Businesses (15%)
+
+* Simple wrappers around OpenAI API
+* Serve very specific niches
+* Make $5k-20k/month
+* Examples: AI email responder for dentists, AI job description generator
+
+# Tier 3: The Strugglers (30%)
+
+* Built cool tech demos
+* Can't find paying customers
+* Burning through savings/investor money
+* This is where I lived
+
+# Tier 4: The Delusional (50%)
+
+* Think they're going to replace Google
+* Have raised money based on PowerPoint slides
+* Will be out of business within 2 years
+
+# What Actually Works in AI Business
+
+After talking to the successful Tier 1 and Tier 2 folks, here are the patterns:
+
+# 1. Pick Boring Industries
+
+The sexiest AI companies get all the attention and funding. But plumbing contractors also need software, and there's way less competition.
+
+# 2. Charge Enterprise Prices
+
+If you're saving a company 40 hours/week, charge them for 40 hours/week. Don't charge $29/month because that's what consumer apps cost.
+
+# 3. Focus on Compliance/Risk Reduction
+
+Companies will pay stupid money to avoid getting sued or fined. AI that helps with compliance is worth 10x more than AI that "increases productivity."
+
+# 4. Become the Expert First
+
+Learn an industry for 2-3 years BEFORE building AI for it. The AI part is easy. Understanding the problem is hard.
+
+# My Pivot Strategy (What I'm Doing Now)
+
+I'm not giving up on entrepreneurship, but I'm definitely giving up on AI for now.
+
+**New approach:**
+
+1. Pick an industry where I have connections (web development agencies)
+2. Identify a specific, expensive problem ($10k+ problem)
+3. Build the simplest possible solution (no AI needed)
+4. Charge properly ($500-2000/month, not $29/month)
+5. Get 10 paying customers before building anything fancy
+
+**The business:** Project management tool specifically for web dev agencies that integrates with their existing stack and automates client reporting.
+
+No AI. No fancy features. Just solving one expensive problem really well.
+
+# Hard Truths About the AI Gold Rush
+
+# Truth 1: Most AI Startups Are Just Expensive Consultants
+
+If your business model is "AI does the work faster," you're selling labor arbitrage, not technology. That's a consulting business with extra steps.
+
+# Truth 2: OpenAI/Google Will Eat Your Lunch
+
+If your competitive advantage is "we fine-tuned GPT for X," you don't have a competitive advantage. You have a 6-month head start, max.
+
+# Truth 3: Customers Don't Care About Your Technology
+
+They care about outcomes. "AI-powered" is not a benefit. "Saves you 10 hours per week" is a benefit.
+
+# Truth 4: The Technical Barriers Are Lower Than Ever
+
+Building AI products is easier than it's ever been. Which means everyone's doing it. Which means you need actual business advantages, not just technical ones.
+
+# What I Wish Someone Had Told Me
+
+1. **Start with the market, not the technology.** Find people with expensive problems first. Then figure out how to solve them.
+2. **B2B &gt; B2C for AI.** Businesses have money and understand ROI. Consumers just want free stuff.
+3. **Niche down relentlessly.** "AI for small businesses" is not a niche. "AI for orthodontist appointment scheduling" is a niche.
+4. **Test with money, not words.** Don't ask if people would pay. Ask them to pay.
+5. **Budget 3x longer than you think.** Everything in AI takes longer because the technology is still figuring itself out.
+
+# The Question Everyone's Asking
+
+"Should I still start an AI business?"
+
+**My answer:** Only if you have deep domain expertise in a specific industry, access to that industry's decision-makers, and a problem that costs companies $100k+ per year.
+
+If your plan is "build cool AI thing, figure out customers later," just save yourself the time and money. Buy index funds instead.
+
+# Final Thoughts
+
+I don't regret this experience. I learned more about business in 18 months than I did in 5 years of consulting. But I definitely could have learned it for a lot less than $47k.
+
+The AI opportunity is real, but it's not what the Twitter influencers are selling you. It's not about building the next ChatGPT wrapper. It's about understanding specific industries so well that you can apply AI to solve their most expensive problems.
+
+Most of us (myself included) jumped on AI because the technology was exciting. But technology doesn't build businesses. Understanding customer problems builds businesses.
+
+The gold rush mentality is exactly what's wrong with entrepreneurship right now. Everyone's looking for the quick win, the magic bullet, the secret hack.
+
+There isn't one. There's just doing the boring work of understanding customers and solving their problems.
+
+Welcome to /r/Entrepreneur and thank you for the post, /u/Nipurn_1234! Please make sure you read our [community rules](https://www.reddit.com/r/Entrepreneur/about/rules/) before participating here. As a quick refresher:  
+
+* Promotion of products and services is not allowed here. This includes dropping URLs, asking users to DM you, check your profile, job-seeking, and investor-seeking. *Unsanctioned promotion of any kind will lead to a permanent ban for all of your accounts.* 
+* AI and GPT-generated posts and comments are unprofessional, and will be treated as spam, including a permanent ban for that account.   
+* If you have free offerings, please comment in our weekly Thursday stickied thread.
+* If you need feedback, please comment in our weekly Friday stickied thread. 
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Entrepreneur) if you have any questions or concerns.* I love how this subreddit is filled with posts saying “I royally screwed up my business / lost a gazillion dollars, so now let me spew out a ton of AI-crappified advice from someone who has a track record that proves they don’t know what they’re talking about.” You presumably know how to prompt AI and this still came out so overly AI created and hard to read. idk I'm just not convinced AI is in a spot to really punch out good copy. The more it tries the more it's obvious that AI is AI You're really calculating your hourly cost as a loss... 🤦🏻 You didn't spend $48k. Your time is not spending anything. Additionally its doubtful you would have had billable hours 100% of the time you spend on this project.
+
+Just annoying when people throw a number on their hours for a personal project. Especially when you spent on average 1.3 hours per day on this project over the first 3 months who knows later what was actually spent vs your hours.
+
+Finally it seems like you did no actual market research before all of this. People being scare of AI or not wanting to take on a new tool or AI not being accurate enough for the companies message are all things you should have identified early. If you are just a front for ChatGPT then yeah, you are gonna have a hard time differentiating.
+
+In my country there is a wildly popular Math teaching AI service. It really works well and students love it. However, ChatGPT just introduced Study Mode, which does a very similar thing. We'll see how they do in the near future. &gt; I'm not giving up on entrepreneurship, but I'm definitely giving up on AI for now.
+
+Judging from [your recent submissions](https://old.reddit.com/user/Nipurn_1234/submitted/), you clearly *aren't* giving up on AI for now:
+
+* This post was clearly composed by AI
+
+* You have *no fewer than 5* AI composed posts submitted within the past 12 hours on a variety of subs.
+
+* You've refused to reply to any comments here - top kek
+
+Congratulations on getting your upvotes, OP.  If only there were some substance behind your ramble. yet another useless chatgpt vomit I mean, thanks for the warning, but, you're blaming it on a "gold rush mentality" when it just sounds like AI or no AI...you just came up with a bad, outdated idea and embarked on it for far longer than you should have. 
+
+
+This is also a result of jumping into a technology without fully understanding it's usefulness.
+
+
+It's like, you're building a Chat Gpt business, but did you even ask Chat Gpt to run analytics on your business idea before hand? Doesn't sound like it. 
+
+
+Sorry for your bad luck but don't go knocking a SUPREMELY useful tool just because you had or have supremely bad business judgement.
+
+
+If you spend 47k and make $400 bucks revenue, it's not an industry problem, that's a YOU problem.   Lol, I couldn't finish reading this. I guess because you haven't paid me $100 an hour. This is an AI fever dream. HELLO I CREATED SHITTY AI BUSINESS BASED ON SHITTY IDEA AND FAILED SO HERE IS SHIT WRITTEN BY AI HOW ALMOST EVERYONE FAILS
+
+  
+fuck you What in the AI slop is this post. I feel some of these comments are a bit harsh, clearly feedback from people who never took this journey.
+
+No one gets it on their first shot. There is always a pivot.
+
+Common Sense is a skill you gain from learning, you are not born with it.
+
+Allot of common sense was learned here and u/Nipurn_1234 has walked away 47k poorer but a hole bag of common sense for the next part of the journey.
+
+Keep pushing on and eventually you will overcome the blockers to your success. But you still wrote this post using ChatGPT right? What the fuck did you spend the $47,000 on??? I love not reading these ai posts. People aren't even trying anymore. 🥱 tl;Dr - don't write LLM wrappers Threads like this will continue to be made because it appeals to people looking for "secret" solutions and shortcuts. This is a minority.  
+The vast majority see it for what it is.  What is it?  See the other comments here. My own development time valued at $100 an hour is all I needed to read to understand where this was going Generated by AI this is a hard lesson to learn for all the "ai startups"
+
+first you will have to honestly ask and answer: is this something more than just chatgpt with a custom prompt"?
+
+if not, you are selling an overpriced custom prompt.
+
+"it's easier than ChatGPT." it is NEVER easier. whatever your startup does with AI, i can replicate with a good prompt i copy paste before my question.
+
+it has to add VALUE. like helping automating something, controlling actual API's, do something else then just spit back a response. that is what chatgpt, claude, etc does. there really is no need for a startup to do that.
+
+that is just a low effort try at a slop service at best, a get rich quick attempt. Vibe coded chatgpt wrapper. It doesn't fly. What could go wrong? Stopped reading at "mostly my own development time valued at $100/hour" 
+
+I value myself at $100,000/hour personally, so after I stopped working on a project after an hour I lost $100k on it We’ve all been there. Expensive lessons but you learned and will crush your next on. Yeah.... i call BS. Anyone that's even LOOKed at the "AI market" knows there's already 10 million people doing copywrite for small businesses using AI.  So you're either didn't do your research or you just asked ChatGPT for a prompt for this sub reddit.
+
+  
+I'm going with the ladder. Wouldent it have been easier to write this yourself rather than explain it in detail to an AI? So really it’s $8K + cost of AI - $340 = your net investment Regarding your pivot, do web dev agencies want that? I do freelance web dev and use Asana for PM. Asana supports just about everything you can throw at it integration wise. Also my clients don’t need or care about reporting. I’d suggest you rethink your pivot. Did you quit your job? What money did you actually spend? Did you quit your job? What money did you actually spend? I’ll sum this up, big AI pushes you out. I just want to say thank you.
+
+Thank you for actually sharing your knowledge and not gate keeping it and using this sub as a marketing platform.
+
+Also, indeed, I had a very relatable experience, not with AI, but with a pretty solution nobody cares about, or are not willing to pay for it. Up
+
+Now, my thought process in new ventures looks like:
+1. Can I make sustainable revenue from it?
+2. If yes, what's the fastest way to prove that assumption and get my first clients?
+3. Try it and iterate. This was super valuable. Thank you!! In my opinion, doing an AI startup is over-hyped. There's going to be (if there isn't already) a handful of players who do B2B integrating businesses into their AI scheduling/customer service/data management applications That's it. There's agent automations, too. Maybe a suite of tools for a business team. There will be niches here and there, but AI is more of a bonus rather than a whole business. So all your costs came from paying yourself $100/hour while having basically no revenue? Good points. Business customers want benefits. In this case they really want customers. 
+
+So if someone builds a system that uses AI to attract prospective b2b customers who want buy a product one could make lots of money selling that or the deal flow to clients. 
+
+I would gladly work with anyone who can bring in people wanting to buy or save money on IT and Telecom services and we would make lots of money. 
+
+But this same market doesn’t want an AI copy product. It came to mind I know someone who is minting it using AI to write marketing copy but her background is doing it manually and she learned how to sell and market the service and therefore deeply knows the market. 
+
+She then hired other people to help her and figured out how to use AI. But she sells a service that delivers an outcome. She doesn’t sell AI. Love how people on this sub tend to spend 47k and 18 months just to learn some common sense
+
+Like bro.. you call it a MVP and then continue to “spend” 12k on it? Even tho it turns out you didn’t spend a buck but still maybe AI search the full form of MVP before you get into it?
+
+The point of AI should be to ship MVPs fast and test the product for real before spending anything real on your idea, this is what Ai empowers you to do. This is the rush, rush to market for testing and recycling. Just cuz you wrap ChatGPT and take 18 months to do that doesn’t really make it an “ai product” or “ai startup”
+
+I’d comment more but I couldn’t read past 20 lines in your post, hope you take the lessons and good luck for the next one! I agree with everything but 'Become the Expert First.'  
+I have a friend in Kenya, he has one of the largest logistics firm in East and Central Africa and the business began when his original business faced import issues. And his decision was he would handle logistics much better than anyone he knows and still does. He even has a warehouse in Delaware. It was all a step by step making errors journey. Thanks for lots of practical wisdom about entrepreneurship in general. Your experience is going to help others in their entrepreneurial journey. One thing that really hit me was find a market first then build a product around it. How would you test the market demand before writing a single line of code? Also i loved to connect and swap more lessons if you're open to it The root of entrepreneurship is understanding the subconscious desire of customers. That includes understanding marketing, but also using that knowledge within the design phase.
+
+Of course, you can kinda skip that step if you create an improved product people already buy I disagree with this :
+
+&gt; Small businesses don't actually want AI copywriting tools. They want customers. Big difference.
+
+They want a pipeline that gets them high value high ROI customers from said pipeline.
+
+Copywriting is just one of many items in a mature customer pipeline. Funny. I know the problems of the industry, the solutions to those problems, how to market to the stakeholders, the domain, but “no” knowledge on to create the platform, and absolutely “no funding,” I do have confidence and will. Well I saw number 3 coming as soon as you said “ai writes decent copy”.
+
+No the fuck it doesn’t. The problem is that you didn't know how to run a business and just tried to turn an idea into something.  
+  
+"It's about understanding specific industries so well that you can apply AI to solve their most expensive problems."  
+Exactly, this is your $50,000 lesson. How about go through some entrepreneurship courses and books for free or near free before spending your next $50k? Putting the cart before the horse will happen without a step 0.  “Have a clear picture of what your MVP will look like.” Super Senior Software/AI Engineer here, I can't read all of this because I spotted the fatal flaw from the start. You made a common mistake i see. You took what is just a component, a very base feature of LLM's, into what you think is a product. Components are not products and never will be. In simpler terms, picture a jigsaw puzzle and you're trying to sell a single piece without the bigger picture. What you built was a prompt enhancer, nothing more. lol let's take advice from someone who failed. Amazing. Dude, you forgot to drop the newsletter plug. I bet my sister that OP is going to re-post this in 10+ fourms.

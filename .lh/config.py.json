@@ -1,0 +1,30 @@
+{
+    "sourceFile": "config.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1756856957494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756863189038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n RAW_DIR = \"raw_contents\"\r\n os.makedirs(RAW_DIR, exist_ok=True)\r\n FAISS_PATH = \"faiss_index\"\r\n MAX_URLS = 10\r\n-MAX_DISPLAY_CHARS = 1000  # For cleaned text display\n\\ No newline at end of file\n+MAX_DISPLAY_CHARS = 1000  # For cleaned text display\r\n+YOUTUBE_TRANSCRIPT_API_AVAILABLE = True  # Assume installed; toggle if not\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756865698982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,5 @@\n RAW_DIR = \"raw_contents\"\r\n os.makedirs(RAW_DIR, exist_ok=True)\r\n FAISS_PATH = \"faiss_index\"\r\n MAX_URLS = 10\r\n-MAX_DISPLAY_CHARS = 1000  # For cleaned text display\r\n-YOUTUBE_TRANSCRIPT_API_AVAILABLE = True  # Assume installed; toggle if not\n\\ No newline at end of file\n+MAX_DISPLAY_CHARS = 1000  # For cleaned text display\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756875836733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,8 @@\n RAW_DIR = \"raw_contents\"\r\n os.makedirs(RAW_DIR, exist_ok=True)\r\n FAISS_PATH = \"faiss_index\"\r\n MAX_URLS = 10\r\n-MAX_DISPLAY_CHARS = 1000  # For cleaned text display\n\\ No newline at end of file\n+MAX_DISPLAY_CHARS = 1000  # For cleaned text display\r\n+DEFAULT_CONTEXT_LENGTH = 8192  # Recommended for Qwen2.5-7B on 4090: up to 128K, but 8K-32K safe for VRAM\r\n+DEFAULT_BATCH_SIZE = 1  # For inference on 4090, can be 1-4\r\n+DEFAULT_PRECISION = \"fp16\"  # FP16 or BF16 for 4090 (24GB VRAM handles 7B easily)\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1756856957494,
+            "name": "Commit-0",
+            "content": "import os\r\n\r\nMODEL_NAME = \"qwen2.5:7b\"\r\nRAW_DIR = \"raw_contents\"\r\nos.makedirs(RAW_DIR, exist_ok=True)\r\nFAISS_PATH = \"faiss_index\"\r\nMAX_URLS = 10\r\nMAX_DISPLAY_CHARS = 1000  # For cleaned text display"
+        }
+    ]
+}

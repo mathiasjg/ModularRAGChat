@@ -1,0 +1,439 @@
+Enhance and correct this web content chunk for clarity and accuracy:
+
+**Lightning Arrow Deadeye Leveling Build Guide: The Third Edict - 0.3**
+Last Updated: September 1, 2025 | Changelog | FAQ
+
+Pin this Page
+
+This Lightning Arrow Deadeye Leveling Build Guide teaches you the most efficient way to complete the Path of Exile 2 Campaign with all skill points and permanent stat bonuses. The Lightning Arrow Deadeye is a proven League Start leveling build, making it an excellent choice for both new character leveling or completing a fresh start speedrun.
+
+**Lightning Arrow Deadeye Leveling Build Gear**
+Early Access: Path of Exile 2 is currently in early access, meaning rapid development including frequent changes to builds due to balance fixes and ongoing improvements. Pin this page to be notified of any updates.
+
+**Pros**
+- **SSF Fresh Start Leaguestart**: Viable for fresh start league runs.
+- **High Single Target Damage**: Excellent damage output on single targets.
+- **Ranged Playstyle**: Effective in ranged combat scenarios.
+
+**Cons**
+- **Don't Get Hit Playstyle**: Requires a focus on avoiding damage to maintain effectiveness.
+
+**Ascendancy Overview**
+
+Early Access: Lightning Arrow Deadeye Leveling Build
+
+Deadeye Lightning Arrow Deadeye Leveling Build Ascendancy Note: If you plan on respeccing in the endgame, you need a significant amount of gold per node.
+
+Passive Tree Progression:
+- Early Access Lightning Arrow Deadeye Passive Tree Variants
+
+  - **Damage First**: Prioritizes early game damage with 133% increased damage, 12% elemental resist penetration, and 10% increased area of affect per attack by level 13. It then allocates Harness the Elements, Catalysis, and Maiming Strike for further damage scaling.
+  
+- **Movement Speed Early**: After allocating early game damage nodes, prioritize movement speed nodes to expedite progression. Both passive trees converge before traveling to the left side.
+
+Note: Recommended for experienced players who want to move through zones faster but may face slightly longer boss fights.
+
+Note: Requires a bow upgrade between L11 Warden Bow and L28 Dualstring Bow.
+
+Strongly recommended to farm until level 22 before completing the Trial of the Sekhemas, Bone Pits, Lost City, or Titan's Grotto bosses. 
+
+Note: Depending on your rare items, you may need to allocate Strength, Dexterity, or Intelligence from attribute nodes.
+
+Enhance and correct this web content chunk for clarity and accuracy:
+
+Leveling Progression Early Access Lightning Arrow Deadeye Leveling Build Gem Swaps
+
+Use the Skill Embed on the right for step-by-step skill gem progression. For a more in-depth, step-by-step explanation of when each gem is acquired and socketed, refer to the leveling progression section below.
+
+Playstyle:
+- Lightning Arrow is your primary clearing ability.
+- Lightning Rod is your primary single-target ability.
+- Herald of Thunder is used for additional clear speed.
+- Wind Dancer is used for additional survivability.
+
+For even more single-target damage, debuff enemies with Voltaic Mark and skill combo with Tornado Shot, Freezing Salvo, and Barrage.
+
+Lightning Arrow Deadeye Leveling Build Gem Swaps
+Skill Gem Progression:
+
+Regex:
+A regex is a code that can be copied to a vendor's search bar in Path of Exile 2 to filter results. It highlights specific base items with modifiers appropriate to this build. Make sure to use it at vendors whenever you are in town.
+
++Da|ll P|k
+
+This regex searches for: Sockets Movement Speed Increased Physical Damage Flat Physical Damage Flat Elemental Damage +# to Level of all Projectile Skills Attack Speed Lightning Arrow Deadeye
+
+Leveling Build Act Progression:
+With experience, the leveling progression outlined below is all you need. However, if you're looking for additional guidance, then review the Important Leveling Tips listed below and the Path of Exile 2 Campaign Walkthrough.
+
+Act 1 Level 2: After Bloated Miller
+
+Bow Shot - Main Single Target Ability  
+Lightning Arrow - Main Clear Ability  
+Lightning Rod - Clearfell Search for the Abandoned Camp and Create Contagion  
+Secondary Clear Ability - Defeat Beira of the Rotten Pack, and Consume the Head of the Winter Wolf (+10% to Cold Resistance)  
+Mud Burrow - Defeat the Devourer, Create Chain, Link to Lightning Arrow  
+
+Grelwood:
+Defeat Areagne, Forgotten Witch  
+Create Elemental Armament I, link to Lightning Rod
+
+You can now farm with Lightning Arrow and Lightning Rod.
+
+To review:
+- Lightning Arrow - Chain - Main Clear Ability
+- Lightning Rod - Elemental Armament I - Main Single Target Ability
+- Combo with Lightning Arrow Contagion - Secondary Clear Ability
+
+Bow Shot - Secondary Single Target Ability for Elemental or Lightning Resistant Rares  
+Red Vale Defeat.
+
+The Rust King and Loot the Uncut Skill Gem Level 3:
+- Farm this zone for extra levels, gold, and possibly a Shortbow Grim Tangle.
+- Defeat Ervig, Rotted Druid for an Uncut Support Gem (Level 1).
+
+Cemetery of the Eternals:
+- Search the zone for the Ancient Ruin Secret and interact with the Sarcophagus to guarantee a Ring.
+- Search for the Entrance to the Tomb of the Consort and the Mausoleum.
+- Tomb of the Consort: Optional - Search for the Haunted Treasure Secret and defeat the Rare for an Uncut Support Gem (Level 1).
+- Defeat Asinia, Praetor Consort in the Mausoleum.
+- Optional - Search for the Forgotten Riches Secret to find a large surplus of gold and rare items.
+- Defeat Draven, Eternal Praetor.
+- Return to the Cemetery of the Eternals.
+
+Hunting Grounds:
+- Defeat Lachlann of Endless Lament.
+- Optional: Follow and defeat the Spirit to complete The Hunt Begins Quest and for loot.
+- Defeat The Crowbell for 2 weapon set passive skill points.
+
+Freythorn:
+- Find the entrance to Freythorn, take the Freythorn Waypoint, but progress ahead to the Ogham Farmlands.
+- Optional: Search for the Dyadic Ritual for an Uncut Support Gem (Level 1).
+
+Ogham Farmlands:
+- Search for Una's Lute and return it to Una in town for 2 weapon set passive skill points (Level 1).
+- Level 10 - Equip a higher-level Life Flask (Greater Life Flask) and a higher-level Mana Flask (Greater Mana Flask).
+
+Ogham Village:
+- Search for Renly’s Smithing Tools and interact with the nearby Blacksmith's Chest to get a Blank Rune and a guaranteed Artificer's Orb.
+- Speak to Renly in town to unlock the Salvage Bench and obtain a Lesser Storm Rune.
+- Use the Salvage Bench on any stashed Socketed Gear to create additional Artificer's Orbs.
+- Use the Artificer's Orb(s) on your best bow, ideally a Warden Bow, and socket the Lesser Storm Rune and any other Lesser Elemental Rune.
+
+Defeat The Executioner.
+Speak to Leitis in town for an Uncut Skill Gem (Level 5).
+
+Freythorn:
+- Return to Freythorn, clear the 3 Rituals, and defeat The King in the Mists.
+- Consume the Gembloom Skull and create Herald of Thunder.
+
+Speak to Finn in Town and select either a Sapphire Charm or Ruby Charm.
+
+Manor Ramparts:
+- Optional steps should be included as per the original text.
+
+Search for the Gallows Secret to find an Uncut Support Gem (Level 1). Oghman Manor: Defeat Candlemass and consume Candlemass' Essence to gain +20 Maximum Life (Level 14). Equip Barrage and Rapid Casting I. Equip Freezing Salvo and Hourglass before Count Geonor. Equip a Sapphire Charm when Count Geonor is defeated. End of Act 1. Link Review: Include Lightning Arrow+.
+
+Chain I + Rapid Attacks I  
+Lightning Rod + Elemental Armament I + Multishot  
+Herald of Thunder + Elemental Armament I + Concentrated Area Barrage + Rapid Casting  
+Freezing Salvo + Hourglass  
+
+Act 2: Mawdun Quarry
+
+Optional:
+- Search for the Faridun War Cache for an Artificer's Orb
+- Farm this zone for extra levels, gold, Blacksmith's Whetstone(s), Armourer's Scrap(s), and possibly an upgraded Bow
+
+Before Rudja, the Dread Engineer:
+- Equip a Ruby Charm (Level 16)
+- Equip a higher-level Life Flask (Grand Life Flask)
+- Equip a higher-level Mana Flask (Grand Mana Flask)
+
+Traitor's Passage:
+- Kill Balbala, the Traitor to receive the quest Djinn Barya for your ascension
+- Ascend now if confident, or at Level 27+ before entering the Dreadnought
+
+Level 22: Equip Voltaic Mark + Lightning Attunement + Prolonged Duration I
+
+Bone Pits:
+- Search for the Sun Clan Relic by defeating Hyena-like enemies
+
+Keth:
+- Defeat Kabala, Constrictor Queen for 2 Weapon Set Passive Skill Points
+- Search for the Kabala Clan Relic by defeating Snake-like enemies
+
+Buried Shrines (Optional):
+- Search for the Elemental Shrine Secret for a Magic Rarity Ruby, Sapphire or Topaz Ring
+
+Valley of the Titans:
+- Search for the Waypoint and place the previously found Sun Clan Relic and Kabala Clan Relic in the nearby Altar
+- Choice between the following buffs: 
+  - 30% increased Charm Charges Gained, +1 Charm Slot
+  - 30% increased Charm Effect Duration, +1 Charm Slot
+
+Titan Grotto (Optional):
+- Search for the Titan's Sword Secret for a random but guaranteed Lesser Rune
+
+Note: Zalmarath, the Colossus has a bugged hitbox, meaning targeting Lightning Rod will be difficult after the initial burst.
+
+Consider using Bow Shot or any direct-targeting ability. Deshar Search for the Fallen Dekhara to gain a 2 Weapon Set Passive Skill Point. Optionally, search for The Unremembered Secret to find an Artificer's Orb.
+
+Spires of Deshar Search for the Sisters of Garukhan to gain +10% Lightning Resistance.
+
+Level 28 Craft and equip a Dualstring Bow.
+
+Trial of Sekhema: Before entering the Dreadnought, complete this trial to earn your first 2 Ascendancy Points.
+
+The Dreadnought & Dreadnought Vanguard:
+- Optionally farm this zone for extra levels, gold, and potentially an upgraded bow.
+- Equip a Topaz Charm or Lightning Resistance Gear if available.
+
+Defeat Jamanra, the Abomination in Act 3: Sandswept Marsh. 
+- Search for the Orok Campfire Secret and use the Lesser Jeweller's Orb on Lightning Rod to add Elemental Focus at level 30.
+- Equip a higher-level Life Flask (Colossal) and Mana Flask (Colossal).
+- Optionally, equip Tame Beast + Meat Shield. At this point, ideally find a Beast with Haste Aura, but any beast can be used until then to synergize with the minor nodes before Inspiring Ally.
+
+Note: Equipping Wind Dancer is not recommended until after completing these steps.
+
+Jungle Ruins:
+Defeat Mighty Silverfist to earn the 2-Weapon Set Passive Skill Points. Optional: Search for the Troubled Camp Secret to find a secret vendor who guarantees a Rare Item. Optional: Find the Jungle Grave Secret to get another guaranteed Rare Belt.
+
+Venom Crypts:
+Search for Corpse-snake Venom and return it to Servi in town to receive an Artificer's Orb and choose between the following permanent character buffs:
+- 25% increased Stun Threshold (Recommended)
+- 30% increased Elemental Ailment Threshold
+- 25% increased Mana Regeneration Rate
+
+Warning: You cannot change your choice later on!
+
+Azak Bog:
+Defeat Ignagduk, the Bog Witch and consume the Gemrot Skull to equip Wind Dancer.
+
+Wind Dancer + Blind I Jiquani’s Machinarium:
+Defeat Blackjaw, the Remnant, and consume the Flame Core for a +10% increase in Fire Resistance.
+
+Molten Vault:
+Optional: Defeat Mektul, the Forgemaster to unlock the Reforging Bench and receive an Artificer's Orb. Note: Mektul is a challenging boss with significantly more HP than normal; consider delaying this fight until later.
+
+Utzaal (Past):
+Defeat Viper Napuatzi.
+Note: Viper Napuatzi is a challenging boss. Consider farming Utzaal or the highest zone you can for additional gear and levels beforehand.
+
+Furthermore, consider reviewing the Act 3 Boss Guide for video footage of each ability.
+
+- **Aggorat (Past)**
+  - Larger monsters in Utzaal & Aggorat can drop a Sacrificial Heart.
+    - Stab the Sacrificial Heart at the Blood Sacrifice Secret for 2 Weapon Set Passive Skill Points.
+
+- **The Black Chambers (Past)**
+  - Defeat Doryani, Royal Thaumaturge.
+  - Note: Review the Act 3 Boss Guide if you encounter difficulty with this fight.
+
+Act 4:
+- Level 40 Equip a higher level Life Flask and Gargantuan Life Flask.
+- Equip a higher level Mana Flask and Gargantuan Mana Flask.
+- Level 41
+  - Equip Tornado Shot, Overabundance I, and Maim.
+  - Isle of Kin: Search for the Abandoned Delving Site Secret for a Lesser Jeweller's Orb.
+  - Defeat the Blind Beast for 2 Weapon Set Passive Skill Points (Optional: Defeat the Rare Beast in the Beast Pen for an Uncut Support Gem).
+
+- **Whakapanu Island**
+  - Optional: Search for the Dread Crab Secret and Defeat the Rare Crab for an Uncut Support Gem.
+
+- **Singing Caverns**
+  - Optional: Search for the Beckoning Clam Secret and bring the Humming Pearl to Rog in town for a Rare Pearlescent Amulet.
+
+- **Abandoned Prison**
+  - Slay enemies until you find a Chapel Key.
+
+Use the key to enter the Chapel Secret and interact with the Goddess of Justice. You will have two choices:
+
+- **30% increased Life Recovery from Flasks**
+- **30% increased Mana Recovery from Flasks**
+
+Eye of Hinekora: Search for the Silent Hall Secret and pay your respects to receive +5% Maximum Mana.
+
+Halls of the Dead: Complete all three Tests to receive either a +5 Attribute or +5% Resistance consumable:
+
+- **Ancestral Tattoo - Tawhoa's Test**: +5 Dexterity or +5% Lightning Resistance
+- **Ancestral Tattoo - Tasalio's Test**: +5 Intelligence or +5% Cold Resistance
+- **Ancestral Tattoo - Ngamahu's Test**: +5 Strength or +5% Fire Resistance
+
+Warning: You cannot change your choice later on!
+
+Defeat Yama, the White, and speak to Navali in the next zone to gain 2 Weapon Set Passive Skill Points. Refer to the Act 4 Boss Guide if you need help.
+
+Arastas Interact with the Morning and Evening Bells to obtain 3 Regal Orbs and 3 Exalted Orbs.
+
+Ngakanu (Optional): Search for the Meeting House to find a room lined with chests for extra loot and potential upgrades.
+
+Interlude 1: The Curse of Holten  
+Level 50 - Equip a higher level Life Flask or Transcendent Life Flask.  
+Level 50 - Equip a higher level Mana Flask or Transcendent Mana Flask.
+
+Holten - Search for the Ferryman in Holten and purchase his supply of Greater Runes.
+
+Wolvenhold - Defeat Oswin, the Dread Warden to receive 2 Weapon Set Passive Skill Points.
+
+Interlude 2: The Stolen Barya  
+Level 54 - Craft and equip a Twin Bow.  
+
+Khari Crossing - Search for Molten One's Gift to gain +5% to Maximum Life.
+
+Defeat Akthi and Anundr for 2 Weapon Set Passive Skill Points.
+
+Sel Khari Sanctuary - Slay enemies until you find Rangeen's Barya and Yoon's Barya. Place the Baryas in their respective altars to obtain a Rare Ring, Rare Amulet, or Rare Jewel.
+
+Enhance and correct this web content chunk for clarity and accuracy:
+
+Search for Orbala's Pillar in Qima and select one of the following buffs:
+- 3% Increased Movement Speed (Recommended)
+- 15% Increased Global Defenses (Recommended)
+- +5% to Elemental Resistances
+- +5 to all Attributes
+- 20% increased Presence Area of Effect
+- 12% increased Cooldown Recovery Rate
+- +5% Increased Experience
+
+You can return to Qima and change your choice at any time.
+
+Optional: Slay enemies until you find a Vial of Sacred Water, which can be used to fill the Sacred Wells for loot. 
+
+Defeat Azmadi, the Faridun Prince, in The Interludes to complete the interlude. Note: Azmadi, the Faridun Prince is an especially lethal fight; refer to The Interludes Boss Guide if you need help.
+
+Interlude 3: Doryani's Contingency
+- Kriar Village: Defeat Lythara, the Wayward Spear for +40 Spirit. Refer to The Interludes Boss Guide if you need help.
+- Howling Caves: Defeat the Abominable Yeti for 2 Weapon Set Passive Skill Points.
+
+Kriar Peaks: Speak to Elder Madox for a free Unique Item.
+
+Endgame: The Ziggurat Refuge
+- Complete all 3 interludes for 2 Weapon Set Passive Skill Points.
+
+Important Leveling Tips:
+- Early Access: Lightning Arrow, Deadeye
+
+Leveling Build: With experience, the Leveling Progression outlined above is all you need.
+
+However, if you're looking for additional guidance, then review the Important Leveling Tips listed below and the Path of Exile 2 Campaign Walkthrough.
+
+General Progression Tips
+
+- **Bow & Quiver Progression**
+
+  - **Level 2 Crude Bow**: This is your starting bow! In most scenarios, it's not worth crafting.
+  
+  - **Level 5 Shortbow (Optional)**: Optional item for early game versatility.
+  
+  - **Level 11 Warden Bow**: Any Magic or Rare Warden Bow with Increased Physical Damage or Flat Elemental Damage. Socket with 1 to 2 Lesser Elemental Runes.
+    - **Item Level:** 11 to 13, for the next tier of Flat Elemental Damage to Attacks modifiers.
+  
+  - **Level 28 Dualstring Bow**: Any Magic or Rare Dualstring Bow with Increased Physical Damage or Flat Elemental Damage. Socket with 1 to 2 Lesser Elemental Runes or Elemental Runes. Consider using a Blacksmith's Whetstone(s) to increase the item quality by 20%.
+    - **Item Level:** 28 to 31, for the next tier of Flat Elemental Damage to Attacks or Physical Damage modifiers.
+    - **Item Level:** 33 to 36, for the subsequent tier of Flat Elemental Damage to Attacks or Physical Damage modifiers.
+
+Level 54 Twin Bow:
+- Any Magic or Rare Twin Bow with Increased Physical Damage or Flat Elemental Damage Socket with 2 Elemental Runes or Greater Elemental Runes.
+- Consider using Blacksmith's Whetstone(s) to increase Quality by 20% for the Item.
+- Item Level: 62 to 65+ for the next tier of Flat Elemental to Attacks or Physical Damage modifiers.
+
+Level 78 Gemini Bow:
+- Any Magic or Rare Gemini Bow with Increased Physical Damage or Flat Elemental Damage Socket with 2 Greater Elemental Runes.
+- Consider using Blacksmith's Whetstone(s) to increase Quality by 20% for the Item.
+- Item Level: 81+ for the next tier of Flat Elemental to Attacks modifiers.
+- Item Level: 82+ for the next tier of Physical Damage modifiers.
+
+Listed above are the ideal Bow base breakpoints. Note that at Level 28 and higher, Bows that provide "Bow Attacks fire an Additional Arrow" are prioritized. That said, the general rule of thumb is to equip the Bow that provides the most DPS. This is also true for quivers.
+
+Flat Elemental Damage to Attacks:
+During the early game, acquiring Flat Elemental Damage to Attacks on as many gear pieces as possible is extremely important to efficiently scale your damage.
+
+Flat Elemental Damage to Attacks can roll on the following slots, listed in priority: Bows - The largest source of Flat Elemental Damage, Quivers - The second largest source of Flat Elemental Damage, Rings, Gloves, Artificer's Orbs, and the Salvage Bench.
+
+In addition to rolling Flat Elemental Damage to Attacks on items, Artificer's Orb can be used on your weapons, allowing you to socket Runes for more damage. For efficient early game damage scaling, elemental runes are recommended: Lesser Storm Rune, Lesser Glacial Rune, Lesser Desert Rune, Storm Rune, Glacial Rune, Desert Rune.
+
+As you progress through the campaign and further into endgame, the base physical damage of Bows increases. Therefore, on certain Magic or Rare items, it may be optimal to socket an Increased Physical Damage Rune: Lesser Iron Rune, Iron Rune, Greater Iron Rune.
+
+Artificer's Orbs can be found or generated as follows: Random drops from killing monsters, Secrets, or from salvaging socketed items for Artificer's Shard with the Salvage Bench; unlocked from returning Renly's Smithing Tools to Renly in Act 1.
+
+The Salvage Bench can also be used on Superior Items (Items with Quality) to generate Blacksmith's Whetstones.
+
+Crafting Items:
+- Disenchanting & Exalt Slamming: If you find a 1 or 2 Mod Magic Item with desirable mods, consider using a Regal Orb. Regals can be a somewhat rare drop but can be deterministically generated by Disenchanting Rare Items for Regal Shards.
+- A Disenchant Vendor, usually the Potion Seller, can be found in each town.
+
+Note: You do not receive Gold for disenchanting items; you may prefer to vendor Rare Items instead for Gold.
+
+If you hit a desirable modifier with your Regal Orb, consider using an Exalted Orb to add more modifiers. It's worth noting that in some trade league scenarios, it might be technically better to save your Exalted Orbs and purchase upgrades via trade.
+
+Vendor Checks & Gambling:
+When it comes to Vendors, you have two main options: Purchasing Pre-Rolled Items or Gambling for a Random Item. Both options cost Gold, and one strategy is not necessarily better than the other.
+- Typically, players check Vendors for a guaranteed upgrade or Gamble if they have gold to spare to potentially acquire an above-average item.
+
+Reforging Bench After defeating Mektul, the Forgemaster, you unlock the Reforging Bench; which allows you to combine 3 Magic Items or 3 Rare Items into 1 Random Magic or Rare Item. Consider saving "failed crafts," poorly rolled drops, or vendor items if you plan to use this strategy.
+
+Farm Zones, Levels & Uncut Skill Gems In Path of Exile 2, most skills increase their damage with gem levels. If you're having trouble with a certain boss fight, consider farming an earlier zone for extra character levels, gear, and Uncut Skill Gems. For example, if you're struggling with Jamanra, the Risen King, farm the Dreadnought Vanguard until Level 31 while also looting Level 9 Uncut Skill Gems.
+
+Note: Plan your passive tree accordingly as skill gems can occasionally have very steep attribute requirements.
+
+Skill Rotation Early Access Lightning Arrow Deadeye Leveling Build Clear During the run, the majority of your pack-to-pack clear is done with Lightning Arrow, and secondarily with Freezing Salvo. You can use Lightning Rod & Lightning Arrow while clearing if the playstyle is preferable.
+
+Furthermore, after equipping Herald of Thunder, your clearing ability significantly increases; allowing you to use either Lightning Rod or Lightning Arrow to proc Herald of Thunder Explosions.
+
+**Basic Single Target (Levels 2-13):**
+From Level 2 to Level 13, the basic combo is to spam Lightning Rod and shoot into it with Lightning Arrow. Ensure the target stays within the Lightning Rod AoE explosions to maximize single-target damage.
+
+**Advanced Single Target (Level 14+ vs Tankier Monsters):**
+At Level 14+, use Barrage before shooting Lightning Arrow for increased single-target damage.
+- At Level 14+, use Freezing Salvo at 12 Missile Stacks for additional single-target damage and to freeze the enemy.
+
+**Advanced Single Target (Levels 22+):**
+At Level 22+, follow the combo listed above and activate Voltaic Mark as the target becomes more vulnerable, before attacking with the rest of your skills.
+- At Level 41+, follow the same combo and activate Tornado Shot before fighting the enemy to build Rage. Recast Tornado Shot during longer fights, slightly before its expiration, to maintain Rage stacks.
+
+**Video: Early Access Lightning Arrow Deadeye Leveling Build**
+The video below goes over all the leveling steps while also showing gameplay and playstyle tips.
+
+FAQ Early Access Lightning Arrow Deadeye Leveling Build
+
+Does the run acquire all Passive Skill Points & Permanent Stats?
+- Yes.
+
+What rewards did you choose from the Relics in Act 2 and Venom Drought in Act 3?
+- Relic: 15% increased Mana Recovery from Flasks.
+- Venom Drought: 25% increased Stun Threshold.
+
+How do I do more Damage?
+- As the run progresses, it's important to continuously upgrade your gear, prioritizing your Bow, Quiver, Gloves, and Rings. A High Physical Damage or Elemental Damage Bow is the most impactful item slot that affects your damage, ideally found on a Dualstring Bow, Twin Bow, or Gemini Bow base.
+- Quivers are the second most impactful item slot; they can provide Increased Projectile Speed paired with Feathered Fletching, and can be further scaled with nodes such as Master Fletching.
+- Gloves and Rings are roughly equal in value as the third damage scaling slot. Aim for lots of Flat Physical or Elemental Damage to Attacks on these items.
+
+How do I die less?
+- Lightning Arrow Deadeye is played with a kill or be killed playstyle.
+
+Aggressive play is required to freeze and destroy enemies before they can attack. When facing bosses, stunning or freezing them is crucial to keep them within the Lightning Rod's explosion radius. If aggressive play is challenging, avoid dodging into enemies; instead, clear any enemies ahead of you before progressing.
+
+Additionally:
+
+- Regularly upgrade your item bases for more base stats (Evasion & Energy Shield).
+- Increase your Elemental Resistance.
+- Boost your Life Pool through gear or character levels.
+- Enhance your defensive layers by increasing Evasion Rating and Deflection.
+- Wear the appropriate charm: 
+  - Resist Charms for Elemental Damage
+  - Amethyst Charm for Chaos Damage
+  - Stone Charm for Stuns
+  - Thawing Charm for Freeze
+
+Summary Early Access Lightning Arrow Deadeye Leveling Build:
+Complete the PoE2 Campaign with a Lightning Arrow Deadeye Leveling Build. Follow this step-by-step leveling progression through the Acts, including gem swaps.
+
+Tips and Tricks to help gear up as you level:
+
+- SSF Fresh Start League: Start here for a viable endgame build.
+- Viable Endgame Build Guides: Check out more related guides to continue your character progression.
+
+Credits:
+Written by: havoc616
+Reviewed by: Crouching_Tuna, Tenkiei.

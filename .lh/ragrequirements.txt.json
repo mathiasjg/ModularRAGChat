@@ -1,0 +1,46 @@
+{
+    "sourceFile": "ragrequirements.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1756861234370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1756863278729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n langchain-community\r\n langchain-core\r\n langchain-ollama\r\n requests\r\n-rank_bm25\n\\ No newline at end of file\n+rank_bm25\r\n+youtube_transcript_api\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756916981601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,7 @@\n langchain-core\r\n langchain-ollama\r\n requests\r\n rank_bm25\r\n-youtube_transcript_api\n\\ No newline at end of file\n+youtube_transcript_api\r\n+spacy\r\n+yt_dlp\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756919187859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,6 @@\n requests\r\n rank_bm25\r\n youtube_transcript_api\r\n spacy\r\n-yt_dlp\n\\ No newline at end of file\n+yt_dlp\r\n+# pip install \"yt-dlp[default,curl-cffi]\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756920216216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n rank_bm25\r\n youtube_transcript_api\r\n spacy\r\n yt_dlp\r\n-# pip install \"yt-dlp[default,curl-cffi]\"\n\\ No newline at end of file\n+curl-cffi\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756926605729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,7 @@\n rank_bm25\r\n youtube_transcript_api\r\n spacy\r\n yt_dlp\r\n-curl-cffi\n\\ No newline at end of file\n+curl-cffi\r\n+chromedrivermanager\r\n+webdriver_manager\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756939750771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,6 @@\n spacy\r\n yt_dlp\r\n curl-cffi\r\n chromedrivermanager\r\n-webdriver_manager\n\\ No newline at end of file\n+webdriver_manager\r\n+PyPDF2\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1756939819475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,7 @@\n yt_dlp\r\n curl-cffi\r\n chromedrivermanager\r\n webdriver_manager\r\n-PyPDF2\n\\ No newline at end of file\n+PyPDF2\r\n+faissqlite\r\n+sqlalchemy\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1756861234370,
+            "name": "Commit-0",
+            "content": "beautifulsoup4\r\nddgs\r\nfaiss-cpu\r\ngradio\r\nlangchain\r\nlangchain-community\r\nlangchain-core\r\nlangchain-ollama\r\nrequests\r\nrank_bm25"
+        }
+    ]
+}

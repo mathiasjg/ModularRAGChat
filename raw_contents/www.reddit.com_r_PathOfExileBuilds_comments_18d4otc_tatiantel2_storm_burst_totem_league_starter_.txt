@@ -1,0 +1,29 @@
+Played this before with pretty garbage items and a similar setup and it worked well enough. It's solid, but it's a bit much for me.   
+
+Arcane cloak dps downtime sucks. This build variant has you like, planting decoy totems, divine blessing, setting mines for the inc damage mine aura, pressing sigil of power, manual cursing, and channeling to get infusion buffs. I want to say 95 percent of people aren't really down to play like that. Is he finishing his GC totem build? That one looked interesting you know something is wrong when totem builds who used to be chill gameplay require more piano / active buttons than melee these days :/ Did they fix the channeling bug yet or do you still need to resummon totems to get them to stop giving you eye cancer?
+
+Love the skill mechanically, but the visuals are horrible. Also ground effects and on death triggers hiding under the effect killed me more than once. One thing to keep in mind is the way stormburst works is the skill spits out orbs, which sticks around for a duration and pulses damage.  This is why scaling skill duration adds a lot of damage because the orbs stay around longer and damage stacks up.
+
+To a certain point the skill duration scaling is legit, but if the boss moves all those existing orbs that are stationary and pulsing are doing no damage.  So don’t get trapped with the new transfigured storm burst that gives even more duration.
+
+Note I am not saying Tati POB is bad or he is misleading people.  He says this in his notes.  Just had people complain his build sucked because they went off on their own and didn’t scale duration at all.
+
+The divine ire rework looks very promising and I personally think it looks better, so check out his POB for that as well once it’s updated.  The trees are pretty similar so you can try both. Cut sigil
+
+Cut mines
+
+Cut self cast cull
+
+Cut inspiration support
+
+No gems in gloves or boots
+
+Oath of the Maji for +30% movespeed and +25% max life
+
+Zoom through maps
+
+(Yes it's less damage but fuck pressing all those buttons)
+
+For bossing you could even add mines back into your boots. Sigil is bait imo and will get you killed trying to max it out.
+
+Edit: also get abyssal sockets on gloves and boots to take advantage of the empty sockets. POB: https://pobb.in/FR7Q0q0GN-A6
